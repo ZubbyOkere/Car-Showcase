@@ -12,8 +12,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { Fragment, useState } from "react";
 
-type Props = {};
-
 const CustomFilter = ({ title, options }: CustomButtonProps) => {
   const router = useRouter();
   const [selected, setSelected] = useState(options[0]);
